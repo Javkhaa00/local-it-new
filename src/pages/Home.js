@@ -6,7 +6,6 @@ import AppContainer from "../containers/theApp"
 export const Home = () => {
     return (
         <div>
-            <Header />
             <Landing />
             <AppContainer />
         </div>
