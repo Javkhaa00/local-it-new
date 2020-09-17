@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Home from './pages/Home';
+import Header from './containers/header';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,6 +11,7 @@ import {
 function App() {
   return (
     <Router>
+      <Header />
       <Switch>
         <Route>
           <Home exact path="/" />
