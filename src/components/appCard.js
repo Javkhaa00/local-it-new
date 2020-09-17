@@ -1,10 +1,19 @@
 import React from "react"
 
-const AppCard = () => {
+const AppCard = (props) => {
     
     return (
         <div className="appcard-container">
-            card
+            {props.img}
+            <div>
+                <span>
+                    {props.label}
+                </span>
+                <span>
+                {props.text}
+                </span>
+            </div>
+            
         </div>
     )
 }

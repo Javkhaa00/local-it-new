@@ -5,7 +5,7 @@ import AppContainer from "../containers/theApp"
 
 export const Home = () => {
     return (
-        <div>
+        <div className="app">
             <Header />
             <AppContainer />
         </div>
