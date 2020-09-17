@@ -4,7 +4,7 @@ const AppCard = () => {
     
     return (
         <div className="appcard-container">
-            test
+            card
         </div>
     )
 }
