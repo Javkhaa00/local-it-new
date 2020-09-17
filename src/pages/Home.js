@@ -1,9 +1,15 @@
 import React from 'react'
+
 import Header from "../containers/header";
+import AppContainer from "../containers/theApp"
 
 export const Home = () => {
     return (
-        <Header />
+        <div>
+            <Header />
+            <AppContainer />
+        </div>
+       
     )
 }
 

@@ -1,4 +1,5 @@
 import React from "react"
+import AppCard from "../components/appCard"
 
 const TheApp = () => {
     
@@ -6,7 +7,7 @@ const TheApp = () => {
         <div>
             <h3>The App</h3>
             <div>
-                
+                <AppCard />
             </div>
         </div>
     )
