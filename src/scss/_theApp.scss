@@ -5,12 +5,60 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     &--card-map{
         display: flex;
-        img{
-            height: 320px;
-            margin: 20px;
+        position: relative;
+        ::after{
+            content: "";
+            position: absolute;
+            background: linear-gradient(to top, #6dd4ad, #49c195);
+            height: 80px;
+            width: 80px;
+            top: 10px;
+            right: 5px;
+            border-radius: 50%;
         }
+        ::before{
+            content: "";
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(to top left, #53c69b, #71d6b0);
+             height: 80px;
+            width: 80px;
+            bottom: 80px;
+            left: -5px;
+        }
+        img{
+            height: 420px;
+            margin: 20px;
+            z-index: 3;
+            position: relative;
+        }
+        
+    }
+    ::before{
+        content: "";
+        
+    }
+    &--bubble{
+        position: absolute;
+        border-radius: 50%;
+    }
+    .two{
+        background: linear-gradient(to top left, #53c69b, #71d6b0);
+        height: 80px;
+        width: 80px;
+        bottom: 160px;
+        left: 60px;
+    }
+    .three{
+        background: linear-gradient(to top left, #53c69b, #71d6b0);
+        opacity: 0.1;
+        height: 130px;
+        width: 130px;
+        bottom: 100px;
+        left: 10px;
     }
 }
 
