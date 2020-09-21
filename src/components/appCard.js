@@ -3,9 +3,9 @@ import React from "react"
 const AppCard = (props) => {
     
     return (
-        <div className="appcard-container">
+        <div className="appcard-container center">
             {props.img}
-            <div>
+            <div className="center">
                 <span>
                     {props.label}
                 </span>
