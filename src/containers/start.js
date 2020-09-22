@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Start = () => {
+const Start = () => {   
     return (
         <div className="start">
             <div className="start--wrapper">
@@ -17,12 +17,15 @@ const Start = () => {
                     </div>
                 </div>
                 <div className="start--wrapper--phones">
-                    <div>
+                    <div className="start--wrapper--phones--iphonex">
                         <img src="/assets/iphone-x.png" alt="phone2" />
                     </div>
-                    <div>
+                    <div className="start--wrapper--phones--samsung">
                         <img src="/assets/galaxy-s8.png" alt="phone1" />
                     </div>
+                    <div className="start--wrapper--phones--circle1" />
+                    <div className="start--wrapper--phones--circle2" />
+                    <div className="start--wrapper--phones--circle3" />
                 </div>
             </div>
         </div>
