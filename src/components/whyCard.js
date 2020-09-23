@@ -1,21 +1,16 @@
 import React from 'react';
-import Data from '../json/why.json';
+import {FaRegStar} from "react-icons/fa"
 
-export const WhyCard = () => {
-
-    const returnCard = (el) => {
-        if (!el) return null;
-
-        return (
-            <div className="why--wrapper--cards">
-                <span className="desc-text">{el.text}</span>
-            </div >
-        );
-    };
+export const WhyCard = (props) => {
 
     return (
-        <div className="why--wrapper">
-            {Data.map(returnCard)}
-        </div>
-    );
+        <div className="why-card">
+            <FaRegStar/>
+            <span>
+                {props.text}
+            </span>
+       </div>
+   )
 };
+
+export default WhyCard
