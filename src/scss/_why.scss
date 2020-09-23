@@ -4,13 +4,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
   position: relative;
   &--title {
-    font-size: larger;
-    font-size: Poppins, sans-serif;
-    font-weight: 600;
-    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    text-align: center;
+    padding-bottom: 48px;
   }
   &--wrapper {
     position: relative;

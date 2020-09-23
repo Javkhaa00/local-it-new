@@ -24,7 +24,7 @@ const TheApp = () => {
 
     return (
         <div className="app-container">
-            <h3>The App</h3>
+            <span className="app-container--title">The App</span>
             <div className="app-container--card-map">
                 <div className="overflow" style={{transform:`translateX(${move*341.15}px)`}}>
                 {array.map((el, index) => (<AppCard
