@@ -9,7 +9,7 @@ import Footer from '../containers/footer';
 
 export const Home = () => {
     return (
-        <div className="app center">
+        <>
             <Start />
             <AppContainer />
             <WhoWeAre />
@@ -17,7 +17,7 @@ export const Home = () => {
             <Local />
             <Contact />
             <Footer />
-        </div>
+        </>
     );
 };
 
