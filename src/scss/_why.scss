@@ -1,72 +1,69 @@
-.why{
-    background: #f7f7f7;
+.why {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  &--title {
+    font-size: larger;
+    font-size: Poppins, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  &--wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    position: relative;
-    &--title{
-        font-size: larger;
-        font-size: Poppins, sans-serif;
-        font-weight: 600;
-        margin-bottom: 30px;
-    }    
-    &--wrapper{
-       position: relative;
-       display: flex;
-       flex-direction: column;
-       width: 100vw;
-    }
-    .bubble{
-        position: absolute;
-        background: #77d9b4;
-        border-radius: 50%;
-    }
-    .one,.two{
-        opacity: 0.4;
-    }
-    .one{
-        height: 160px;
-        width: 160px;
-        top: -70px;
-        right: 8%;
-    }
-    .two{
-        height: 240px;
-        width: 240px;
-        bottom: -75px;
-        left: 5%;
-    }
-    .three{
-        height: 80px;
-        width: 80px;
-        top: -80px;
-        right: 7%;
-    }
-        
-    
-    
-    
+    width: 100vw;
+  }
+  .bubble {
+    position: absolute;
+    background: #77d9b4;
+    border-radius: 50%;
+  }
+  .one,
+  .two {
+    opacity: 0.4;
+  }
+  .one {
+    height: 160px;
+    width: 160px;
+    top: -70px;
+    right: 15%;
+  }
+  .two {
+    height: 240px;
+    width: 240px;
+    bottom: -75px;
+    left: 10%;
+  }
+  .three {
+    height: 90px;
+    width: 90px;
+    top: -100px;
+    right: 14%;
+  }
 
-.why-card{
-    width: 70%;
+  .why-card {
+    width: 60%;
     box-shadow: -4px 4px 6px #dcdcdc;
-    margin: 0 auto 20px auto ;
+    margin: 0 auto 20px auto;
     background: white;
     display: flex;
     align-items: center;
     padding: 25px 20px;
     z-index: 6;
-    span{
-        color: #757575;
+    span {
+      color: #757575;
     }
-    svg{
-        display: flex;
-        height: 30px;
-        width: 50px;
-        padding: 10px 20px 10px 0;
-        color: #d4d4d4;
+    svg {
+      display: flex;
+      height: 30px;
+      width: 50px;
+      padding: 10px 20px 10px 0;
+      color: #d4d4d4;
     }
-}
+  }
 }

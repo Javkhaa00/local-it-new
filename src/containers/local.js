@@ -21,8 +21,11 @@ const Local = () => {
     return (
         <div className="local"> 
             <span className="local--title">Are you a Local Business?</span>
-            <div>
+            <div className="local--map">
                 {LocalData.map(el => (<LocalCard data={el}/>))}
+            </div>
+            <div className="local--button">
+                Learn More
             </div>
         </div>
     );
