@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Start = () => {   
+const Start = () => {
     return (
         <div className="start">
             <div className="start--wrapper">
@@ -9,7 +9,7 @@ const Start = () => {
                         Know what you spend, know what you get
                     </span>
                     <span className="start--wrapper--text-wrapper--desc">
-                        What's your budget? Plug it in and find what your community has to offer
+                        What's your budget? Plug it in and find what your community has to offer. LOCAL, like never before.
                     </span>
                     <div className="start--wrapper--text-wrapper--stores">
                         <img src="/assets/google-play.svg" alt="play-store" />

@@ -3,16 +3,16 @@ import LocalCard from "../components/localCard"
 
 const LocalData = [{
     img: "/assets/back1.png",
-    text: "Flat-rate pricing for each package. We're not into the fine print extra expences, neither are you."
+    text: "What makes your business different? Offer a deal that makes you stand apart from the rest. Every business is different. Show how you are to your community by offering them a deal. Bigger the deal, the more attention you get."
 }, {
     img: "/assets/back2.png",
-    text: "Immediately actionable analytics, in laymens terms, easily read on app. (change verbage but this is the gist)"
+    text: "The fastest way to promote your business. Snap a picture of the deal, plug in the discount and post! Everyone in the community instantly knows. NO ONE DOES IT FASTER."
 }, {
     img: "/assets/back3.png",
-    text: "Tired of getting ad space bought out by corporations? Us too. LocalIT is here to serve Small Businesses only."
+    text: "Every deal you post comes with feedback just to you. NOW, the ability to interact with your community means each deal will better inform you of your customers. The more you know, the more the customer gets and the more business for you in return."
 }, {
     img: "/assets/back4.png",
-    text: "Upgrade relationships with already loyal customers b provideing them real-time updates on new offers/discounts."
+    text: "Get feedback that means something. Customers and markets always are changing. Stay ahead with real-time analytics. Know what you customers like and want from you with in information you can use RIGHT NOW."
 }]
 
 const Local = () => {
